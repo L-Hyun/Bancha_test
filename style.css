@@ -1,0 +1,154 @@
+body {
+  margin: 0 auto;
+  background-color: #afb5cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  object-fit: cover;
+  position: absolute;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.frame {
+  width: 477px;
+  height: 800px;
+  margin-top: 50px;
+  border: 30px solid black;
+  border-radius: 30px;
+  position: relative;
+  overflow-y: scroll;
+}
+.frame::-webkit-scrollbar {
+  width: 6px;
+  display:none;
+}
+.frame::-webkit-scrollbar-thumb {
+  height: 17%;
+  background-color: #666666;
+  border-radius: 10px;
+}
+.frame::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+.content {
+  position: relative;
+}
+
+.inner {
+  z-index: 10;
+  width: 478px;
+  /* display: none; */
+}
+.forbancha {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: 630px;
+  left: 360px;
+  z-index: 5000;
+}
+.forgong {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: 1330px;
+  left: 260px;
+  z-index: 5000;
+}
+.fornew {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: 1880px;
+  left: 160px;
+  z-index: 5000;
+}
+.forpop {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: 2400px;
+  left: 50px;
+  z-index: 5000;
+}
+.forcate {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 3550px;
+  left: 200px;
+  z-index: 5000;
+}
+
+#inbancha {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  z-index: 5000;
+}
+
+#ingonggu {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 2500px;
+  left: 20px;
+  z-index: 5000;
+}
+
+#incateall {
+  top: 836px;
+  left: 200px;
+}
+
+#inbot {
+  top: 3550px;
+  left: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+#main, #bancha, #cate, #cateall, #detail, #gonggu, #new, #pop {
+  position: absolute;
+  left:0px;
+  top:0px;
+}
+.bancha {
+  display: none;
+}
+.cate {
+  display: none;
+}
+.cateall {
+  display: none;
+}
+.detail {
+  display: none;
+}
+.gonggu {
+  display: none;
+}
+.new {
+  display: none;
+}
+.pop {
+  display: none;
+}
+
+#home {
+  margin-top:60px;
+  width: 100px;
+  height: 50px;
+  border : 2px solid black;
+  border-radius: 10px;
+}
